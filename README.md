@@ -2,13 +2,14 @@
 The purpose of this repo is to be used as a starting point for building a web application that is leveraging Flask, Preact.js, and GraphQL. This project structure is best used whe creating a single page web applications.
 
 
-* [Project structure](#Projectstructure)
+* [Project Structure](#Projectstructure)
+* [Getting Started](#Gettingstarted)
 * [Tech Stack](#Techstack)
 	* [Frontend](#Frontend)
 	* [Backend](#Backend)
 	* [Database](#Database)
 
-##  <a name='Projectstructure'></a>Project structure
+##  <a name='Projectstructure'></a>Project Structure
 The general project structure is given below where this can be expanded apon to create a more complex application.
 ```
 ├── _backend
@@ -32,6 +33,17 @@ The general project structure is given below where this can be expanded apon to 
 ├── README.md
 └── requirements.txt
 ```
+
+##  <a name='Getting Started'></a>Getting Started
+
+This project is meant to be run on a linux machine but can be used on windows with slight modifications.
+
+1. clone this repo into your project folder
+2. run `python3 -m venv venv` to initialize the python environment
+3. run `source venv/bin/activate`
+4. run `pip install -r requirements.txt` to install the python modules
+5. run `source bash/run_dev.sh` to run the development version of the application
+
 
 ##  <a name='Techstack'></a>Tech Stack
 The structure of this project has been built out to separate the Frontend, Backend, and Database fully from each other while giving the framework to allow them to talk.
