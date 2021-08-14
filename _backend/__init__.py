@@ -16,7 +16,7 @@ def shutdown_session(exception=None):
 
 
 # setting up the graphql api
-from _backend.graphql import schema
+from _backend._graphql import schema
 
 app.add_url_rule(
     "/graphql",
