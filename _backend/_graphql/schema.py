@@ -1,5 +1,5 @@
 import graphene
-from _backend.graphql.objects import Table, Table2
+from _backend._graphql.objects import Table, Table2
 from typing import Union
 
 
