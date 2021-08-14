@@ -1,4 +1,4 @@
 from graphene import Schema
-from _backend.graphql.schema import Query
+from _backend._graphql.schema import Query
 
 schema = Schema(query=Query)
