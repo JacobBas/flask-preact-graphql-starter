@@ -4,7 +4,6 @@ The purpose of this repo is to be used as a starting point for an application th
 ## Project structure
 The general project structure is given below where this can be expanded apon to create a more complex application.
 ```
-├── app.py
 ├── _backend
 │   ├── _graphql
 │   │   ├── __init__.py
@@ -21,6 +20,8 @@ The general project structure is given below where this can be expanded apon to 
 ├── bash
 │   ├── run_dev.sh
 │   └── run_prod.sh
+├── .gitignore
+├── app.py
 ├── README.md
 └── requirements.txt
 ```
