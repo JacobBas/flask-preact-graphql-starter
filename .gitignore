@@ -1,5 +1,15 @@
+# general ignores
 venv
 __pycache__/
+db/
+
+# ignoring logs
 log.txt
 pid.txt
+
+# database ignores
 db/
+_alembic/versions
+
+# ignoring secrets
+secret/
