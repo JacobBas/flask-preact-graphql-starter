@@ -1,7 +1,16 @@
 # Flask Preact GraphQL Starter Project
-The purpose of this repo is to be used as a starting point for an application that is leveraging Flask, Preact.js, and GraphQL as its tech stack. This project structure is best used whe creating a single page web applications.
+The purpose of this repo is to be used as a starting point for building a web application that is leveraging Flask, Preact.js, and GraphQL. This project structure is best used whe creating a single page web applications.
 
-## Project structure
+
+* 1. [Project structure](#Projectstructure)
+* 2. [How to use](#Howtouse)
+	* 2.1. [Frontend](#Frontend)
+	* 2.2. [Backend](#Backend)
+	* 2.3. [Database](#Database)
+
+<hr/>
+
+##  1. <a name='Projectstructure'></a>Project structure
 The general project structure is given below where this can be expanded apon to create a more complex application.
 ```
 ├── _backend
@@ -26,10 +35,10 @@ The general project structure is given below where this can be expanded apon to 
 └── requirements.txt
 ```
 
-## How to use
+##  2. <a name='Howtouse'></a>How to use
 The structure of this project has been built out to separate the Frontend, Backend, and Database fully from each other while giving the framework to allow them to talk.
 
-### Frontend
+###  2.1. <a name='Frontend'></a>Frontend
 The frontend for this application is leveraging the Preact.js framework which is a smaller, faster alternative to using React.js. While it does not contain the full extent of React.js functionality, it has enough for most application to run.
 
 We are also using an alternative to JSX called HTM which mimics JSX without the need for a compiler to convert from JSX to JavaScript.
@@ -39,7 +48,7 @@ The purpose of using this frontend frame work is to keep the size of the used mo
 References:
 - More information on Preact is given here: https://preactjs.com/
 
-### Backend
+###  2.2. <a name='Backend'></a>Backend
 The backend makes heavy use of Python and the Flask framework. Flask has been choosen since it is lightweight and flexible enough to make powerful applications that configure to the project and developer needs.
 
 GraphQL is used in most cases to communicate between the Database and Front end since it allows for a ton of flexibility once implemented.
@@ -48,7 +57,7 @@ References:
 - More information on Flask is given here: https://flask.palletsprojects.com/en/2.0.x/
 - More information on Graphene (graphQL client) is given here: https://graphene-python.org/
 
-### Database
+###  2.3. <a name='Database'></a>Database
 The database for this project is preconfigured as an SQLite database but since we are using the SQLAlchemy module from Python, this can be updated to nearly any other SQL driver.
 
 Database migration is always a difficult problem but with SQLAlchemy this is made much easier by using the Alembic package. This much be configured dependent on the SQL driver that is being used.
