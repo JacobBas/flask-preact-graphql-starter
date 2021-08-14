@@ -8,8 +8,6 @@ The purpose of this repo is to be used as a starting point for building a web ap
 	* [Backend](#Backend)
 	* [Database](#Database)
 
-<hr/>
-
 ##  <a name='Projectstructure'></a>Project structure
 The general project structure is given below where this can be expanded apon to create a more complex application.
 ```
