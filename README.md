@@ -49,7 +49,7 @@ References:
 ###  <a name='Backend'></a>Backend
 The backend makes heavy use of Python and the Flask framework. Flask has been choosen since it is lightweight and flexible enough to make powerful applications that configure to the project and developer needs.
 
-GraphQL is used in most cases to communicate between the Database and Front end since it allows for a ton of flexibility once implemented.
+GraphQL is used in most cases to communicate between the Database and Frontend since it allows for a ton of flexibility once implemented.
 
 References:
 - More information on Flask is given here: https://flask.palletsprojects.com/en/2.0.x/
