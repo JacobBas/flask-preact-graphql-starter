@@ -22,7 +22,7 @@ The general project structure is given below where this can be expanded apon to 
 │   └── models.py
 ├── _frontend
 │   ├── index.html
-│   └── static
+│   └── components
 │       └── index.js
 ├── bash
 │   ├── run_dev.sh
